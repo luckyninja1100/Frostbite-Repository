@@ -1,5 +1,7 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
     <Style src="project://database/Assets/Player%20UI.uss?fileID=7433441132597879392&amp;guid=6b5a867730d7b37498cdca57a0aa6f40&amp;type=3#Player UI" />
-    <ui:ProgressBar value="22" title="my-progress" style="top: 85%; width: 10%; height: 30px; left: 15%; flex-direction: column; flex-grow: 0; scale: 2 1; position: absolute;" />
-    <ui:ProgressBar value="22" title="my-progress" style="flex-direction: column-reverse; bottom: 0; top: 10%; position: absolute; border-left-color: rgba(5, 5, 5, 0); border-right-color: rgba(5, 5, 5, 0); border-top-color: rgba(5, 5, 5, 0); border-bottom-color: rgba(5, 5, 5, 0); border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; align-items: center; justify-content: flex-start;" />
+    <ui:GroupBox style="height: 520px;">
+        <ui:ProgressBar value="22" title="my-progress" style="flex-direction: column-reverse; bottom: 0; top: 70%; position: absolute; border-left-color: rgba(5, 5, 5, 0); border-right-color: rgba(5, 5, 5, 0); border-top-color: rgba(5, 5, 5, 0); border-bottom-color: rgba(5, 5, 5, 0); border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; align-items: flex-start; justify-content: center; rotate: 270deg; left: 1%; width: 151px;" />
+        <ui:ProgressBar value="22" title="my-progress" style="top: 90%; width: 10%; height: 30px; left: 17.5%; flex-direction: column; flex-grow: 0; scale: 2 1; position: absolute;" />
+    </ui:GroupBox>
 </ui:UXML>
